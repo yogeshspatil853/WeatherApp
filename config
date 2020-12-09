@@ -1,0 +1,12 @@
+[core]
+	bare = true
+	repositoryformatversion = 0
+	filemode = false
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/yogeshspatil853/WeatherApp.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	pushurl = https://github.com/yogeshspatil853/WeatherApp.git
+[fetch]
+	prune = false
